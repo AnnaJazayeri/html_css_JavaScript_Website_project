@@ -2,14 +2,20 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #cc5e05;
 }
 
 header {
-    background-color: #333;
-    color: #fff;
+    background-color: #34fa1a;
+    color: #2402e4;
     padding: 10px;
     text-align: center;
+}
+
+
+#cartOverlay {
+    display: none;
+    /* Additional styling for the cart overlay if needed */
 }
 
 main {
@@ -25,4 +31,20 @@ main {
     background-color: #fff;
 }
 
-/* Add more styles based on your design */
+#gallery {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.image-container img {
+    width: 100%; /* Adjusted for better responsiveness */
+    max-width: 400px; /* Added max-width to control larger images */
+    height: auto;
+    margin: 5px;
+}
