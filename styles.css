@@ -13,11 +13,6 @@ header {
 }
 
 
-#cartOverlay {
-    display: none;
-    /* Additional styling for the cart overlay if needed */
-}
-
 main {
     display: flex;
     justify-content: space-around;
